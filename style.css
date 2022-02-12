@@ -109,36 +109,38 @@ section {
     transform: scale(1.1);
 }
 
+.about-me {
+    background: rgb(182, 234, 250);
+}
+
 .title {
     display: flex;
     justify-content: center;
-    color:rgb(255, 255, 255);
+    color:rgb(32, 90, 250);
     font-size: 2.2rem;
     font-weight: 700;
     margin-bottom: 30px;
 }
 
-.about-me {
-    background-color:rgb(30, 128, 255);
-    
-}
 
 .content {
     display: flex;
     justify-content: center;
     flex-direction: row;
     
+    
 
 }
 
 .card {
-    background-color: aliceblue;
+    background-color: rgb(226, 238, 247);
     width: 30rem;
     padding: 25px;
     margin: 15px;
     box-shadow: 0 10px 5px lightblue;
     border-radius: 15px;
     transition: 0.7s ease;
+    
 
 
 
@@ -161,6 +163,7 @@ section {
 .info h3 {
     color: blueviolet;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .info span {
@@ -175,3 +178,113 @@ section {
    transform: scale(1.1);
 }
 
+.projects-title {
+    display: flex;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.projects {
+    background-color: rgb(39, 112, 248);
+}
+
+.projects .content {
+    margin-top: 40px;
+    flex-wrap: wrap;
+    
+
+
+}
+
+.project-card {
+    background-color: white;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width:23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+}
+
+.project-image:hover{
+    opacity: 0.9;
+}
+  
+
+.project-image img {
+    width:100%;
+}
+
+.project-info {
+    padding: 1em;
+    
+}
+
+.project-category {
+    font-size: 1.8em;
+    color: black;
+
+}
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.more-details {
+    text-decoration: none;
+    color: rgb(0, 60, 255);
+}
+
+.more-details:hover {
+    color: rgb(83, 43, 226);
+}
+
+.cards-contact .card {
+    width: 250px;
+    height: 200px;
+
+}
+
+.cards-contact .info {
+    font-size : 1.2em;
+    text-align: center;
+    
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 2em;
+    display: flex;
+   justify-content: space-between;
+}
+
+.footer-title {
+    color:white;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.footer-title span {
+    color: rgb(60, 13, 189);
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.social-icons a{
+    margin-left:10px ;
+    
+}
