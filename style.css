@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+
+* {
+    font-family : 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background:whitesmoke;
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+
+}
+
+.logo {
+    text-decoration: none;
+    color: rgb(44, 47, 248);
+    font-size: 2.5rem;
+    font-weight: 600;
+
+}
+
+.navigation a{
+    text-decoration: none;
+    color: rgb(44, 47, 248);
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding: 2rem;
+}
+
+.navigation a:hover {
+    color:rgb(157, 16, 238)
+    
+
+}
+
+
+section {
+    padding: 100px 200px;
+    
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(/bgimage.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    color:white;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color:rgb(31, 70, 243);
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color:rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    text-decoration: none;
+    color:white;
+    background-color: rgb(31, 70, 243) ;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.93em 2.18em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+    
+}
+
+
+.main-btn:hover {
+    background-color: rgb(36, 32, 238);
+    transform: scale(1.1);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color:rgb(255, 255, 255);
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.about-me {
+    background-color:rgb(30, 128, 255);
+    
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+
+}
+
+.card {
+    background-color: aliceblue;
+    width: 30rem;
+    padding: 25px;
+    margin: 15px;
+    box-shadow: 0 10px 5px lightblue;
+    border-radius: 15px;
+    transition: 0.7s ease;
+
+
+
+}
+.icon {
+    text-align: center;
+    font-size: 6rem;
+    color: rgb(24, 103, 250);
+    margin: 10px;
+}
+
+
+.info {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: left;
+}
+
+.info h3 {
+    color: blueviolet;
+    margin-bottom: 8px;
+}
+
+.info span {
+    display: inline-block;
+    color: cornflowerblue;
+    font-size:1.9em;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.card:hover {
+   transform: scale(1.1);
+}
+
