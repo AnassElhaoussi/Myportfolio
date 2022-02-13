@@ -294,7 +294,7 @@ section {
         padding: 12px 20px;
     }
     .navigation a {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         padding-left: 10px;
     }
 
@@ -336,10 +336,8 @@ section {
     }
 }
 
-@media (max-width:300px){
-    body {
-        font-size: 10px;
+@media (max-width:413px){
+    .cards-contact .content {
+         font-size: 1rem;
     }
-
-    
 }
