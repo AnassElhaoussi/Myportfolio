@@ -59,7 +59,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(/bgimage.jpg) no-repeat;
+    background: url(bgimage.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -268,7 +268,7 @@ section {
     color: white;
     padding: 2em;
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
 }
 
 .footer-title {
