@@ -63,6 +63,7 @@ section {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    
 }
 
 .main h2 {
@@ -269,6 +270,7 @@ section {
     padding: 2em;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .footer-title {
